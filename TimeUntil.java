@@ -39,11 +39,21 @@ public class TimeUntil {
             dm = dm - 1;
             ds = ds + 60;
         }
+        
+        if (dh > 0) {
+            System.out.println(dh + " Hours until time entered");
+        }
+        if (dm > 0) {
+            System.out.println(dm + " Minutes until time entered");
+        }
+        if (ds > 0) {
+            System.out.println(ds + " Seconds until time entered");
+        }
 
 
-        System.out.println(dh + " Hours until time entered");
-        System.out.println(dm + " Minutes until time entered");
-        System.out.println(ds + " Seconds until time entered");
+        
+      
+        
 
 
 
